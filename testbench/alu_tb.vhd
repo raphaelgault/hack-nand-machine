@@ -12,8 +12,8 @@ architecture bench of alu_tb is
 begin
 	process
 	begin
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
+		A <= std_logic_vector(To_Unsigned(18, 16));
+		B <= std_logic_vector(To_Unsigned(129, 16));
 		zx <= '1';
 		nx <= '0';
 		zy <= '1';
@@ -21,8 +21,6 @@ begin
 		f <= '1';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '1';
 		nx <= '1';
 		zy <= '1';
@@ -30,8 +28,6 @@ begin
 		f <= '1';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '1';
 		nx <= '1';
 		zy <= '1';
@@ -39,8 +35,6 @@ begin
 		f <= '1';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '0';
 		zy <= '1';
@@ -48,8 +42,6 @@ begin
 		f <= '0';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '1';
 		nx <= '1';
 		zy <= '0';
@@ -57,8 +49,6 @@ begin
 		f <= '0';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '0';
 		zy <= '1';
@@ -66,8 +56,6 @@ begin
 		f <= '0';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '1';
 		nx <= '1';
 		zy <= '0';
@@ -75,8 +63,6 @@ begin
 		f <= '0';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '0';
 		zy <= '1';
@@ -84,8 +70,6 @@ begin
 		f <= '1';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '1';
 		nx <= '1';
 		zy <= '0';
@@ -93,8 +77,6 @@ begin
 		f <= '1';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '1';
 		zy <= '1';
@@ -102,8 +84,6 @@ begin
 		f <= '1';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '1';
 		nx <= '1';
 		zy <= '0';
@@ -111,8 +91,6 @@ begin
 		f <= '1';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '0';
 		zy <= '1';
@@ -120,8 +98,6 @@ begin
 		f <= '1';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '1';
 		nx <= '1';
 		zy <= '0';
@@ -129,8 +105,6 @@ begin
 		f <= '1';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '0';
 		zy <= '0';
@@ -138,8 +112,6 @@ begin
 		f <= '1';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '1';
 		zy <= '0';
@@ -147,8 +119,6 @@ begin
 		f <= '1';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '0';
 		zy <= '0';
@@ -156,8 +126,6 @@ begin
 		f <= '1';
 		no <= '1';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '0';
 		zy <= '0';
@@ -165,8 +133,6 @@ begin
 		f <= '0';
 		no <= '0';
 		wait for 50 ns;
-		A <= std_logic_vector(To_Unsigned(1, 16));
-		B <= std_logic_vector(To_Unsigned(1, 16));
 		zx <= '0';
 		nx <= '1';
 		zy <= '0';
